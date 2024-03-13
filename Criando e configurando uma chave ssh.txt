@@ -1,0 +1,26 @@
+Criando e configurando uma chave ssh
+-Gera a chave pro email
+$ ssh-keygen -t ed25519 -C velcidesufpa@gmail.com
+
+-Acessando a chave e copiando para adicionar no github
+$ cd /c/Users/pitag/.ssh
+$ cat id_ed25519.pub
+copiar e colar a chave gerada
+
+-Adiciona a chave ssh no seu computador
+$ eval $(ssh-agent -s)
+$ ssh-add id_ed25519
+
+Ao usar o git clone selecionar o link na aba SSH.
+
+Comandos do git:
+git init - inicia o repositório
+para visualizar repositório vazio ls -a
+
+configuração inicial
+git config --global user.email "email"
+git config --global user.name Velcides
+
+git add - adiciona arquivo para commit
+
+git commit -m ""
