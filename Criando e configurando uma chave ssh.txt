@@ -38,3 +38,4 @@ git remote add origin - "empurra" para um repositório remoto o nosso repositór
 git remote -v - lista repositórios remotos cadastrados
 git push origin master - "empurra" as modificações pro repositório remoto
 git pull origin master - atualiza seus arquivos, ideal faze-lo antes do push
+git clone "link do repositório" - clona o repositório
