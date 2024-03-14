@@ -14,6 +14,8 @@ $ ssh-add id_ed25519
 Ao usar o git clone selecionar o link na aba SSH.
 
 Comandos do git:
+Ininciando o repositório localmente:
+
 git init - inicia o repositório
 para visualizar repositório vazio ls -a
 
@@ -29,3 +31,9 @@ git add.
 git commit -m ""
 
 git status - verifica alteração nos arquivos do repositório
+
+Acessando o repositório remoto
+
+git remote add origin - "empurra" para um repositório remoto o nosso repositório local
+git remote -v - lista repositórios remotos cadastrados
+git push origin master - "empurra" as modificações pro repositório remoto
