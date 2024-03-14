@@ -1,6 +1,6 @@
-#Strogonoff de Frango :chicken
+# Strogonoff de Frango 
 
-###Ingredientes
+### Ingredientes
 
 peito de frango
 3 peitos de frango cortados em cubos
