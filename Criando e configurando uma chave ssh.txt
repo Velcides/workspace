@@ -1,4 +1,4 @@
-Criando e configurando uma chave ssh
+# Criando e configurando uma chave ssh
 -Gera a chave pro email
 $ ssh-keygen -t ed25519 -C velcidesufpa@gmail.com
 
@@ -19,7 +19,7 @@ Ininciando o repositório localmente:
 git init - inicia o repositório
 para visualizar repositório vazio ls -a
 
-configuração inicial
+# Configuração inicial
 git config --global user.email "email"
 git config --global user.name Velcides
 git config --global --unset user.name - remove
@@ -38,4 +38,6 @@ git remote add origin - "empurra" para um repositório remoto o nosso repositór
 git remote -v - lista repositórios remotos cadastrados
 git push origin master - "empurra" as modificações pro repositório remoto
 git pull origin master - atualiza seus arquivos, ideal faze-lo antes do push
-git clone "link do repositório" - clona o repositório
+
+## Links 
+[Sintaxe Básica Markdown](https://www.markdownguide.org/basic-syntax/)
