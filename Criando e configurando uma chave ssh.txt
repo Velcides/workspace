@@ -20,7 +20,12 @@ para visualizar repositório vazio ls -a
 configuração inicial
 git config --global user.email "email"
 git config --global user.name Velcides
+git config --global --unset user.name - remove
 
 git add - adiciona arquivo para commit
+git add * adiciona todas as modificações
+git add. 
 
 git commit -m ""
+
+git status - verifica alteração nos arquivos do repositório
